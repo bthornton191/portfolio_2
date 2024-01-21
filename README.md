@@ -1,7 +1,4 @@
-# vCard - Personal portfolio
+# Johns resume
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
 
-## License
-
-This project is **free to use** and does not contains any license.
+[Hexagon: CFD Software Engineer](https://myhr-hexagonmi.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN5448)
