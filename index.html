@@ -48,7 +48,7 @@
 
         <div class="info-content">
           <h1 class="name" title="John Thornton">John Thornton</h1>
-          <p class="title">Mobile Application Developer</p>
+          <p class="title">Fluid Mechanics Engineer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -663,107 +663,166 @@
       </article>
 
 
+    <!-- <div class="service-content-box">
+        <h4 class="h4 service-item-title">Porous microstructure analysis (puma) software</h4>
+        <h5 class="h5 service-item-title"><em>AIAA SCITECH 2023 Forum</em></h5>
+        <p class="service-item-text">
+            The open-source Porous Microstructure Analysis (PuMA) software was implemented to offer an efficient framework
+            for
+            determining material characteristics from 3D microstructures. Its development was inspired by progress in X-ray
+            microtomography, an imaging technology that captures the internal structure of materials in 3D, and even in a 4D
+            temporal context. Over recent years, this method has transformed the domain of materials science due to its
+            capability
+            to non-destructively examine material microstructures while presenting digital data about their geometrical
+            details. It
+            has provided insights into materials relevant to several NASA missions, including heatshields, parachute
+            fabrics,
+            meteorites, and other advanced composites.
+    
+            PuMA, in its current version 3, delivers an array of features, spanning from basic geometric insights of a
+            microstructure to intricate anisotropic thermo-elastic and chemical behavior. Specifically, the software
+            evaluates
+            morphological attributes (specific surface area, volume fractions, mean intercept lengths, orientation) and
+            physical
+            characteristics (conductivity, elasticity, permeability, and tortuosity). Additionally, it can model material
+            degradation processes, such as oxidation and surface chemistry interactions. The software can generate synthetic
+            microstructures, from straightforward geometrical designs to intricate woven and non-woven geometries. Coupling
+            material
+            generation and characterization enable parametric studies and sensitivity analysis to optimize the
+            microstructural
+            performance and inform design decisions and reliability assessment based on uncertainty quantification.
+    
+            A recent addition to PuMA includes the TomoSAM plugin, devised to incorporate the cutting-edge Segment Anything
+            Model
+            (SAM). SAM is a promptable deep learning model that can identify objects and create image masks in a zero-shot
+            manner,
+            based only on a few user clicks. The synergy between these tools aids in the segmentation of complex 3D datasets
+            from
+            tomography or other imaging techniques, which would otherwise require a laborious manual segmentation process.
+        </p>
+    </div> -->
+
       <!--
         - #PROJECTS
       -->
       <article class="projects" data-page="projects">
         <header>
           <h2 class="h2 article-title">Projects</h2>
-        </header>
-        <section class="projects">
-          <ul class="project-list">
-            <li class="project-item  active" >
+        </header><section class="projects">
+            <ul class="project-list">
+                <li class="service-item">
+                    <div class="service-content-box">
+                        <!-- <a href="#"> -->
+                        <h4 class="h4 service-item-title">Atmospheric Entry Analysis for Uranus Orbiter and Probe</h4>
+                        <p class="service-item-text">• Worked with a small team to create a proposal for exploration of Uranus </p>
+                        <p class="service-item-text">• Performed heatshield response simulations and proposed a heatshield design </p>
+                        <p class="service-item-text">• Uranus Orbiter and Probe was selected as NASA’s highest priority mission in the Planetary Decadal Survey </p>
+                        <!-- </a> -->
+                    </div>
+                </li>
+                <li class="service-item" >
+                    <div class="service-content-box">
               <!-- <a href="#"> -->
-                <h3 class="project-title">Atmospheric Entry Analysis for Uranus Orbiter and Probe</h3>
-                <ul class="project-description">• Worked with a small team to create a proposal for exploration of Uranus </ul> 
-                <ul class="project-description">• Performed heatshield response simulations and proposed a heatshield design </ul>
-                <ul class="project-description">• Uranus Orbiter and Probe was selected as NASA’s highest priority mission in the Planetary Decadal Survey </ul>
-              </a>
+                <h4 class="h4 service-item-title">Coupling CFD and Heatshield Response Simulations</h4>
+                <p class="service-item-text">• Developed a tool in python for coupling heatshield response simulations with CFD and radiative heating computations</p>
+                <p class="service-item-text">• The coupling involves using blowing gases computed in the heatshield response simulations in a blowing boundary condition in CFD</p>
+                <p class="service-item-text">• The coupling tool was first tested on a 2D sphere case before being used in 3D with the MSL and Mars2020 heatshields</p>
+              <!-- </a> -->
             </li>
-            <li class="project-item  active" >
+            <li class="service-item" >
+                <div class="service-content-box">
               <!-- <a href="#"> -->
-                <h3 class="project-title">Coupling CFD and Heatshield Response Simulations</h3>
-                <ul class="project-description">• Developed a tool in python for coupling heatshield response simulations with CFD and radiative heating computations</ul>
-                <ul class="project-description">• The coupling involves using blowing gases computed in the heatshield response simulations in a blowing boundary condition in CFD</ul>
-                <ul class="project-description">• The coupling tool was first tested on a 2D sphere case before being used in 3D with the MSL and Mars2020 heatshields</ul>
-              </a>
+                <h4 class="h4 service-item-title">Uncertainty Quantification for Atmospheric Entry</h4>
+                <p class="service-item-text">• Developed a code in perl for performing monte carlo based uncertainty quantification with heatshield response simulations</p>
+                <p class="service-item-text">• The code provided confidence intervals for success based on material temperature limits</p>
+                <p class="service-item-text">• Used this code to perform risk assessments for commercial flight tests for the Boeing Starliner CST-100</p>
+              <!-- </a> -->
+            </div>
             </li>
-            <li class="project-item  active" >
+            <li class="service-item" >
+                <div class="service-content-box">
               <!-- <a href="#"> -->
-                <h3 class="project-title">Uncertainty Quantification for Atmospheric Entry</h3>
-                <ul class="project-description">• Developed a code in perl for performing monte carlo based uncertainty quantification with heatshield response simulations</ul>
-                <ul class="project-description">• The code provided confidence intervals for success based on material temperature limits</ul>
-                <ul class="project-description">• Used this code to perform risk assessments for commercial flight tests for the Boeing Starliner CST-100</ul>
-              </a>
+                <h4 class="h4 service-item-title">Mars Science Lab Heatshield Response Simulations</h4>
+                <p class="service-item-text">• Performed material response simulations with the geometry and material properties of the MSL heatshield</p>
+                <p class="service-item-text">• Computed Mars aerothermal environment with CFD</p>
+                <p class="service-item-text">• Results compared to measured temperature data from Mars entry</p>
+              <!-- </a> -->
+            </div>
             </li>
-            <li class="project-item  active" >
+            <li class="service-item" >
+                <div class="service-content-box">
               <!-- <a href="#"> -->
-                <h3 class="project-title">Mars Science Lab Heatshield Response Simulations</h3>
-                <ul class="project-description">• Performed material response simulations with the geometry and material properties of the MSL heatshield</ul>
-                <ul class="project-description">• Computed Mars aerothermal environment with CFD</ul>
-                <ul class="project-description">• Results compared to measured temperature data from Mars entry</ul>
-              </a>
+                <h4 class="h4 service-item-title">Sensitivity Analysis of Parameters in Mars Entry</h4>
+                <p class="service-item-text">• Performed sensitivity analysis using Dakota to assess impact of material properties on temperature during entry</p>
+              <!-- </a> -->
+            </div>
             </li>
-            <li class="project-item  active" >
+            <li class="service-item" >
+                <div class="service-content-box">
               <!-- <a href="#"> -->
-                <h3 class="project-title">Sensitivity Analysis of Parameters in Mars Entry</h3>
-                <ul class="project-description">• Performed sensitivity analysis using Dakota to assess impact of material properties on temperature during entry</ul>
-              </a>
+                <h4 class="h4 service-item-title">Inverse Analysis of Mars Atmosphere</h4>
+                <p class="service-item-text">• Performed inverse analysis using Bayesian calibration to compute heating rate estimates during entry</p>
+                <p class="service-item-text">• The calibration minimized error between measured temperatures from NASA missions and computed temperatures from PATO</p>
+                <p class="service-item-text">• Bayesian calibration was done in Dakota</p>
+              <!-- </a> -->
+            </div>
             </li>
-            <li class="project-item  active" >
+            <li class="service-item" >
+                <div class="service-content-box">
               <!-- <a href="#"> -->
-                <h3 class="project-title">Inverse Analysis of Mars Atmosphere</h3>
-                <ul class="project-description">• Performed inverse analysis using Bayesian calibration to compute heating rate estimates during entry</ul>
-                <ul class="project-description">• The calibration minimized error between measured temperatures from NASA missions and computed temperatures from PATO</ul>
-                <ul class="project-description">• Bayesian calibration was done in Dakota</ul>
-              </a>
+                <h4 class="h4 service-item-title">Development of Thermal Conductivity Solvers for Porous Media</h4>
+                <p class="service-item-text">• Developed two conductivity solvers in C++ for PuMA software</p>
+                <p class="service-item-text">• Conductivity computed on voxel grid based on 3D micro-CT images of porous material</p>
+                <p class="service-item-text">• The first solver uses an implicit finite volume method while the second uses an explicit jump method utilizing discrete fourier transforms for increased performance</p>
+                <p class="service-item-text">• Solvers were parallelized using OpenMP</p>
+              <!-- </a>
+            </div> -->
             </li>
-            <li class="project-item  active" >
+            <li class="service-item" >
+                <div class="service-content-box">
               <!-- <a href="#"> -->
-                <h3 class="project-title">Development of Thermal Conductivity Solvers for Porous Media</h3>
-                <ul class="project-description">• Developed two conductivity solvers in C++ for PuMA software</ul>
-                <ul class="project-description">• Conductivity computed on voxel grid based on 3D micro-CT images of porous material</ul>
-                <ul class="project-description">• The first solver uses an implicit finite volume method while the second uses an explicit jump method utilizing discrete fourier transforms for increased performance</ul>
-                <ul class="project-description">• Solvers were parallelized using OpenMP</ul>
-              </a>
+                <h4 class="h4 service-item-title">Porting and Optimization of PuMA for GPU</h4>
+                <p class="service-item-text">• Added support for GPUs to thermal conductivity module using OpenACC</p>
+                <p class="service-item-text">• Achieved a 25x speedup compared to a single processor</p>
+              <!-- </a> -->
+            </div>
             </li>
-            <li class="project-item  active" >
+            <li class="service-item" >
+                <div class="service-content-box">
               <!-- <a href="#"> -->
-                <h3 class="project-title">Porting and Optimization of PuMA for GPU</h3>
-                <ul class="project-description">• Added support for GPUs to thermal conductivity module using OpenACC</ul>
-                <ul class="project-description">• Achieved a 25x speedup compared to a single processor</ul>
-              </a>
+                <h4 class="h4 service-item-title">Development of Carbon Fiber Dynamics Simulator</h4>
+                <p class="service-item-text">• Created a module in C++ simulating the manufacturing process to obtain a realistic woven material</p>
+                <p class="service-item-text">• Each fiber is treated as a set of pinned elastic rods with tensile force applied until steady state is reached</p>
+                <p class="service-item-text">• The initial geometry is obtained from the open source library, TexGen</p>
+              <!-- </a> -->
+            </div>
             </li>
-            <li class="project-item  active" >
+            <li class="service-item" >
+                    <div class="service-content-box">
               <!-- <a href="#"> -->
-                <h3 class="project-title">Development of Carbon Fiber Dynamics Simulator</h3>
-                <ul class="project-description">• Created a module in C++ simulating the manufacturing process to obtain a realistic woven material</ul>
-                <ul class="project-description">• Each fiber is treated as a set of pinned elastic rods with tensile force applied until steady state is reached</ul>
-                <ul class="project-description">• The initial geometry is obtained from the open source library, TexGen</ul>
-              </a>
+                <h4 class="h4 service-item-title">Development of Plugin for Dragonfly Software</h4>
+                <p class="service-item-text">• Created a plugin for Dragonfly, an advanced image visualization and processing software, using their built-in python framework.</p>
+                <p class="service-item-text">• Created a wrapper for PuMA’s C++ material property solvers allowing them to be imported and called in python</p>
+                <p class="service-item-text">• Created a GUI for the plugin using PyQ</p>
+              <!-- </a> -->
+            </div>
             </li>
-            <li class="project-item  active" >
+            <li class="service-item" >
+                    <div class="service-content-box">
               <!-- <a href="#"> -->
-                <h3 class="project-title">Development of Plugin for Dragonfly Software</h3>
-                <ul class="project-description">• Created a plugin for Dragonfly, an advanced image visualization and processing software, using their built-in python framework.</ul>
-                <ul class="project-description">• Created a wrapper for PuMA’s C++ material property solvers allowing them to be imported and called in python</ul>
-                <ul class="project-description">• Created a GUI for the plugin using PyQ</ul>
-              </a>
-            </li>
-            <li class="project-item  active" >
-              <!-- <a href="#"> -->
-                <h3 class="project-title">Analysis of Permeability in Oxidizing Heatshields</h3>
-                <ul class="project-description">• Performed oxidation simulations for carbon composite materials</ul>
-                <ul class="project-description">• Calculated permeability at multiple stages of oxidation using GeoDict stokes flow solver</ul>
-                <ul class="project-description">• Created a model relating permeability to porosity in oxidizing fibrous carbon based on results and similar models found in literature</ul>
-              </a>
+                <h4 class="h4 service-item-title">Analysis of Permeability in Oxidizing Heatshields</h4>
+                <p class="service-item-text">• Performed oxidation simulations for carbon composite materials</p>
+                <p class="service-item-text">• Calculated permeability at multiple stages of oxidation using GeoDict stokes flow solver</p>
+                <p class="service-item-text">• Created a model relating permeability to porosity in oxidizing fibrous carbon based on results and similar models found in literature</p>
+              <!-- </a> -->
+            </div>
             </li>
           </ul>
         </section>
       </article>
 
       <!--
-        - #PUBLICATINOS
+        - #PUBLICATIONS
       -->
       <article class="publications" data-page="publications">
         <header>
@@ -781,7 +840,7 @@
                 </div>
                 <div class="service-content-box">
                     <h4 class="h4 service-item-title">Effects of problem complexity reduction on parameter sensitivity and classification in charring ablator scenarios</h4>
-                    <h5 class="h5 service-item-title"><em>Aerospace Science and Technology</em></h5>
+                    <h5 class="h5 service-item-title" style="color: var(--vegas-gold);">Aerospace Science and Technology</h5>
                     <p class="service-item-text">
                         We investigate here effects of adaptations like dimension reduction, omission of parameter correlation, and grid
                         refinement on parameter influence over material temperature response and total recession. The task is accomplished by
@@ -808,8 +867,8 @@
                     </a>
                 </div>
                 <div class="service-content-box">
-                    <h4 class="h4 service-item-title">Update 3.0 to “PuMA: The porous microstructure analysis software</h4>
-                    <h5 class="h5 service-item-title"><em>SoftwareX</em></h5>
+                    <h4 class="h4 service-item-title">Update 3.0 to "PuMA: The porous microstructure analysis software"</h4>
+                    <h5 class="h5 service-item-title" style="color: var(--vegas-gold);">SoftwareX</h5>
                     <p class="service-item-text">
                         A major update of the Porous Microstructure Analysis (PuMA) software is presented. PuMA is a framework for computing
                         effective material properties and response based on material microstructures. Version 3.0 of the software extends the
@@ -831,7 +890,7 @@
                 </div>
                 <div class="service-content-box">
                     <h4 class="h4 service-item-title">An Investigation of Morphology Dependent Charge Storage in Polypyrrole Membranes</h4>
-                    <h5 class="h5 service-item-title"><em>Smart Materials, Adaptive Structures and Intelligent Systems</em></h5>
+                    <h5 class="h5 service-item-title" style="color: var(--vegas-gold);">Smart Materials, Adaptive Structures and Intelligent Systems</h5>
                     <p class="service-item-text">
                         PPy-based membranes exchange ions with electrolyte through reversible redox processes and hence are best suited as
                         electrodes for batteries and super capacitors. The energy density of batteries and super capacitors are dependent on the
@@ -865,7 +924,7 @@
                 </div>
                 <div class="service-content-box">
                     <h4 class="h4 service-item-title">Coupling heatshield response and aerothermal environment for mars entry via surface gas blowing</h4>
-                    <h5 class="h5 service-item-title"><em>AIAA SCITECH 2023 Forum</em></h5>
+                    <h5 class="h5 service-item-title" style="color: var(--vegas-gold);">AIAA SCITECH 2023 Forum</h5>
                     <p class="service-item-text">
                         Flight data obtained using the instrumented heatshields on the Mars Science Laboratory and Mars 2020 has offered unique
                         validation data for material response and aerothermal environment modeling of Mars atmospheric entry. While the
@@ -889,7 +948,7 @@
                 </div>
                 <div class="service-content-box">
                     <h4 class="h4 service-item-title">Porous microstructure analysis (puma) software</h4>
-                    <h5 class="h5 service-item-title"><em>AIAA SCITECH 2023 Forum</em></h5>
+                    <h5 class="h5 service-item-title" style="color: var(--vegas-gold);">AIAA SCITECH 2023 Forum</h5>
                     <p class="service-item-text">
                         The open-source Porous Microstructure Analysis (PuMA) software was implemented to offer an efficient framework for
                         determining material characteristics from 3D microstructures. Its development was inspired by progress in X-ray
@@ -927,7 +986,7 @@
                 </div>
                 <div class="service-content-box">
                     <h4 class="h4 service-item-title">3D ablation modeling of silicone-coated heatshield compared to medli2 in-flight data</h4>
-                    <h5 class="h5 service-item-title"><em>AIAA SCITECH 2023 Forum</em></h5>
+                    <h5 class="h5 service-item-title" style="color: var(--vegas-gold);">AIAA SCITECH 2023 Forum</h5>
                     <p class="service-item-text">
                         Mars 2020 was protected during atmospheric entry by a heatshield made of Phenolic Impregnated Carbon Ablator (PICA),
                         NASA’s flagship porous ablative material. The heatshield was equipped with the Mars Entry, Descent, and Landing
@@ -956,7 +1015,7 @@
                 </div>
                 <div class="service-content-box">
                     <h4 class="h4 service-item-title">Uranus atmospheric entry probe thermal protection design study</h4>
-                    <h5 class="h5 service-item-title"><em>IPPW 2022</em></h5>
+                    <h5 class="h5 service-item-title" style="color: var(--vegas-gold);">IPPW 2022</h5>
                     <p class="service-item-text">
                         The Planetary Science Decadal Survey [1] has identified Uranus as the highest priority destination for a flagship
                         mission in the decade 2022-2032. Significant effort was expended across multiple teams in developing the concept study.
@@ -977,7 +1036,7 @@
                 </div>
                 <div class="service-content-box">
                     <h4 class="h4 service-item-title">Analysis of the msl/medli entry data with coupled cfd and material response</h4>
-                    <h5 class="h5 service-item-title"><em>18th International Planetary Probe Workshop</em></h5>
+                    <h5 class="h5 service-item-title" style="color: var(--vegas-gold);">18th International Planetary Probe Workshop</h5>
                     <p class="service-item-text">
                         The Mars Science Laboratory (MSL) was protected during its atmospheric entry by an instrumented heat-shield using NASA's
                         Phenolic Impregnated Carbon Ablator (PICA) material. PICA is a lightweight carbon fiber/polymeric resin material that
@@ -1027,7 +1086,7 @@
                 </div>
                 <div class="service-content-box">
                     <h4 class="h4 service-item-title">Determination of aerothermal environment and ablator material response using inverse methods</h4>
-                    <h5 class="h5 service-item-title"><em>Ablation Workshop</em></h5>
+                    <h5 class="h5 service-item-title" style="color: var(--vegas-gold);">Ablation Workshop</h5>
                     <p class="service-item-text">
                         The Mars Science Laboratory (MSL) was protected during entry into the Martian atmosphere by a thermal protection system
                         that used NASA’s Phenolic Impregnated Carbon Ablator (PICA). The heat shield of the probe was instrumented with the Mars
@@ -1051,7 +1110,7 @@
                 </div>
                 <div class="service-content-box">
                     <h4 class="h4 service-item-title">Micro-scale artificial weave generation capabilities for thermal protection system material modeling</h4>
-                    <h5 class="h5 service-item-title"><em>Ablation Workshop</em></h5>
+                    <h5 class="h5 service-item-title" style="color: var(--vegas-gold);">Ablation Workshop</h5>
                     <p class="service-item-text">
                         The Mars Science Laboratory (MSL) was protected during entry into the Martian atmosphere by a thermal protection system
                         that used NASA’s Phenolic Impregnated Carbon Ablator (PICA). The heat shield of the probe was instrumented with the Mars
@@ -1075,7 +1134,7 @@
                 </div>
                 <div class="service-content-box">
                     <h4 class="h4 service-item-title">Microscale analysis of spacecraft heat shields</h4>
-                    <h5 class="h5 service-item-title"><em>International Conference for High Performance Computing, Networking, Storage, and Analysis</em></h5>
+                    <h5 class="h5 service-item-title" style="color: var(--vegas-gold);">International Conference for High Performance Computing, Networking, Storage, and Analysis</h5>
                     <p class="service-item-text">
                         Imagine entering Earth’s atmosphere after returning from the outer solar system. A heat shield less than 2 inches thick
                         protects you from temperatures up to 2,900° Celsius (5,252° Fahrenheit). Such conditions were experienced by NASA’s
@@ -1099,7 +1158,7 @@
                 </div>
                 <div class="service-content-box">
                     <h4 class="h4 service-item-title">The porous microstructure analysis (puma) software for high-temperature microscale modeling</h4>
-                    <h5 class="h5 service-item-title"><em>Annual InterPore Meeting</em></h5>
+                    <h5 class="h5 service-item-title" style="color: var(--vegas-gold);">Annual InterPore Meeting</h5>
                     <p class="service-item-text">
                         The Porous Microstructure Analysis (PuMA) software is a suite of tools for the analysis of porous materials and
                         generation of material microstructures. From microstructural data, often obtained through X-ray microtomography, PuMA
@@ -1128,7 +1187,7 @@
                 </div>
                 <div class="service-content-box">
                     <h4 class="h4 service-item-title">Recent developments to the porous microstructure analysis (puma) software</h4>
-                    <h5 class="h5 service-item-title"><em>Ablation Workshop</em></h5>
+                    <h5 class="h5 service-item-title" style="color: var(--vegas-gold);">Ablation Workshop</h5>
                     <p class="service-item-text">
                         
                     </p>
@@ -1145,7 +1204,7 @@
                 </div>
                 <div class="service-content-box">
                     <h4 class="h4 service-item-title">Modeling the Relationship Between Porosity and Permeability During Oxidation of Ablative Materials</h4>
-                    <h5 class="h5 service-item-title"><em>Ablation Workshop</em></h5>
+                    <h5 class="h5 service-item-title" style="color: var(--vegas-gold);">Ablation Workshop</h5>
                     <p class="service-item-text">
                         The ablative materials used in thermal protection systems (TPS) undergo oxidation during atmospheric entry which leads
                         to an in-depth change in both permeability and porosity. These properties have a significant affect on heat transfer in
@@ -1166,6 +1225,8 @@
         - #Dummy
       -->
 
+      <!-- ATTENTION JOHN: DON'T DELETE this dummty section. It doesn't show up on the site and
+         for some reason it breaks projects/publications if you delete it -->
       <article class="Dummy" data-page="Dummy">
 
         <header>
