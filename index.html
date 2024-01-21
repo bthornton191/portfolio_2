@@ -663,12 +663,7 @@
         <section class="projects">
           <ul class="project-list">
             <li class="project-item  active" >
-              <a href="#">
-<!-- 
-                <figure class="project-img">
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure> -->
-
+              <!-- <a href="#"> -->
                 <h3 class="project-title">Atmospheric Entry Analysis for Uranus Orbiter and Probe</h3>
                 <ul class="project-description">• Worked with a small team to create a proposal for exploration of Uranus </ul> 
                 <ul class="project-description">• Performed heatshield response simulations and proposed a heatshield design </ul>
@@ -676,15 +671,81 @@
               </a>
             </li>
             <li class="project-item  active" >
-              <a href="#">
-<!-- 
-                <figure class="project-img">
-                  <img src="./assets/images/project-2.png" alt="finance" loading="lazy" >
-                </figure> -->
+              <!-- <a href="#"> -->
                 <h3 class="project-title">Coupling CFD and Heatshield Response Simulations</h3>
                 <ul class="project-description">• Developed a tool in python for coupling heatshield response simulations with CFD and radiative heating computations</ul>
                 <ul class="project-description">• The coupling involves using blowing gases computed in the heatshield response simulations in a blowing boundary condition in CFD</ul>
                 <ul class="project-description">• The coupling tool was first tested on a 2D sphere case before being used in 3D with the MSL and Mars2020 heatshields</ul>
+              </a>
+            </li>
+            <li class="project-item  active" >
+              <!-- <a href="#"> -->
+                <h3 class="project-title">Uncertainty Quantification for Atmospheric Entry</h3>
+                <ul class="project-description">• Developed a code in perl for performing monte carlo based uncertainty quantification with heatshield response simulations</ul>
+                <ul class="project-description">• The code provided confidence intervals for success based on material temperature limits</ul>
+                <ul class="project-description">• Used this code to perform risk assessments for commercial flight tests for the Boeing Starliner CST-100</ul>
+              </a>
+            </li>
+            <li class="project-item  active" >
+              <!-- <a href="#"> -->
+                <h3 class="project-title">Mars Science Lab Heatshield Response Simulations</h3>
+                <ul class="project-description">• Performed material response simulations with the geometry and material properties of the MSL heatshield</ul>
+                <ul class="project-description">• Computed Mars aerothermal environment with CFD</ul>
+                <ul class="project-description">• Results compared to measured temperature data from Mars entry</ul>
+              </a>
+            </li>
+            <li class="project-item  active" >
+              <!-- <a href="#"> -->
+                <h3 class="project-title">Sensitivity Analysis of Parameters in Mars Entry</h3>
+                <ul class="project-description">• Performed sensitivity analysis using Dakota to assess impact of material properties on temperature during entry</ul>
+              </a>
+            </li>
+            <li class="project-item  active" >
+              <!-- <a href="#"> -->
+                <h3 class="project-title">Inverse Analysis of Mars Atmosphere</h3>
+                <ul class="project-description">• Performed inverse analysis using Bayesian calibration to compute heating rate estimates during entry</ul>
+                <ul class="project-description">• The calibration minimized error between measured temperatures from NASA missions and computed temperatures from PATO</ul>
+                <ul class="project-description">• Bayesian calibration was done in Dakota</ul>
+              </a>
+            </li>
+            <li class="project-item  active" >
+              <!-- <a href="#"> -->
+                <h3 class="project-title">Development of Thermal Conductivity Solvers for Porous Media</h3>
+                <ul class="project-description">• Developed two conductivity solvers in C++ for PuMA software</ul>
+                <ul class="project-description">• Conductivity computed on voxel grid based on 3D micro-CT images of porous material</ul>
+                <ul class="project-description">• The first solver uses an implicit finite volume method while the second uses an explicit jump method utilizing discrete fourier transforms for increased performance</ul>
+                <ul class="project-description">• Solvers were parallelized using OpenMP</ul>
+              </a>
+            </li>
+            <li class="project-item  active" >
+              <!-- <a href="#"> -->
+                <h3 class="project-title">Porting and Optimization of PuMA for GPU</h3>
+                <ul class="project-description">• Added support for GPUs to thermal conductivity module using OpenACC</ul>
+                <ul class="project-description">• Achieved a 25x speedup compared to a single processor</ul>
+              </a>
+            </li>
+            <li class="project-item  active" >
+              <!-- <a href="#"> -->
+                <h3 class="project-title">Development of Carbon Fiber Dynamics Simulator</h3>
+                <ul class="project-description">• Created a module in C++ simulating the manufacturing process to obtain a realistic woven material</ul>
+                <ul class="project-description">• Each fiber is treated as a set of pinned elastic rods with tensile force applied until steady state is reached</ul>
+                <ul class="project-description">• The initial geometry is obtained from the open source library, TexGen</ul>
+              </a>
+            </li>
+            <li class="project-item  active" >
+              <!-- <a href="#"> -->
+                <h3 class="project-title">Development of Plugin for Dragonfly Software</h3>
+                <ul class="project-description">• Created a plugin for Dragonfly, an advanced image visualization and processing software, using their built-in python framework.</ul>
+                <ul class="project-description">• Created a wrapper for PuMA’s C++ material property solvers allowing them to be imported and called in python</ul>
+                <ul class="project-description">• Created a GUI for the plugin using PyQ</ul>
+              </a>
+            </li>
+            <li class="project-item  active" >
+              <!-- <a href="#"> -->
+                <h3 class="project-title">Analysis of Permeability in Oxidizing Heatshields</h3>
+                <ul class="project-description">• Performed oxidation simulations for carbon composite materials</ul>
+                <ul class="project-description">• Calculated permeability at multiple stages of oxidation using GeoDict stokes flow solver</ul>
+                <ul class="project-description">• Created a model relating permeability to porosity in oxidizing fibrous carbon based on results and similar models found in literature</ul>
               </a>
             </li>
           </ul>
