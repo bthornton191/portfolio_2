@@ -697,6 +697,62 @@ software (perl), and a code for coupling CFD with heatshield response simulation
           <h2 class="h2 article-title">Projects</h2>
         </header><section class="projects">
             <ul class="project-list">
+              <li class="service-item" >
+                <div class="service-content-box">
+              <!-- <a href="#"> -->
+                <h4 class="h4 service-item-title">Development of Thermal Conductivity Solvers for Porous Media</h4>
+                <p class="service-item-text">• Developed two conductivity solvers in C++ for PuMA software</p>
+                <p class="service-item-text">• Conductivity computed on voxel grid based on 3D micro-CT images of porous material</p>
+                <p class="service-item-text">• The first solver uses an implicit finite volume method while the second uses an explicit jump method utilizing discrete fourier transforms for increased performance</p>
+                <p class="service-item-text">• Solvers were parallelized using OpenMP</p>
+              <!-- </a>
+            </div> -->
+            </li>
+            <li class="service-item" >
+              <div class="service-content-box">
+            <!-- <a href="#"> -->
+
+              • Developed a module for PuMA in C++ which computes permeability from a 3D micro-structure image.
+              • The module solves Stoke’s equations with an implicit finite volume method. The method uses an implicit pressure
+              correction scheme obtained from fractional step analysis
+              • An explicit jump method utilizing discrete fourier transforms to decrease computation time was also implemented
+
+              <h4 class="h4 service-item-title">Development of Permeability Solvers for Porous Media</h4>
+              <p class="service-item-text">• Developed a module for PuMA in C++ which computes permeability from a 3D micro-structure image</p>
+              <p class="service-item-text">• The module solves Stoke’s equations with an implicit finite volume method. The method uses an implicit pressure
+                correction scheme obtained from fractional step analysis</p>
+              <p class="service-item-text">• An explicit jump method utilizing discrete fourier transforms to decrease computation time was also implemented</p>
+            <!-- </a>
+          </div> -->
+          </li>
+            <li class="service-item" >
+              <div class="service-content-box">
+        <!-- <a href="#"> -->
+          <h4 class="h4 service-item-title">Coupling CFD and Heatshield Response Simulations</h4>
+          <p class="service-item-text">• Developed a tool in python for coupling heatshield response simulations with CFD and radiative heating computations</p>
+          <p class="service-item-text">• The coupling involves using blowing gases computed in the heatshield response simulations in a blowing boundary condition in CFD</p>
+          <p class="service-item-text">• The coupling tool was first tested on a 2D sphere case before being used in 3D with the MSL and Mars2020 heatshields</p>
+        <!-- </a> -->
+      </li>
+      <li class="service-item" >
+        <div class="service-content-box">
+      <!-- <a href="#"> -->
+        <h4 class="h4 service-item-title">Porting and Optimization of PuMA for GPU</h4>
+        <p class="service-item-text">• Added support for GPUs to thermal conductivity module using OpenACC</p>
+        <p class="service-item-text">• Achieved a 25x speedup compared to a single processor</p>
+      <!-- </a> -->
+    </div>
+    </li>
+    <li class="service-item" >
+      <div class="service-content-box">
+<!-- <a href="#"> -->
+  <h4 class="h4 service-item-title">Development of Plugin for Dragonfly Software</h4>
+  <p class="service-item-text">• Created a plugin for Dragonfly, an advanced image visualization and processing software, using their built-in python framework.</p>
+  <p class="service-item-text">• Created a wrapper for PuMA’s C++ material property solvers allowing them to be imported and called in python</p>
+  <p class="service-item-text">• Created a GUI for the plugin using PyQ</p>
+<!-- </a> -->
+</div>
+</li>
                 <li class="service-item">
                     <div class="service-content-box">
                         <!-- <a href="#"> -->
@@ -707,15 +763,6 @@ software (perl), and a code for coupling CFD with heatshield response simulation
                         <!-- </a> -->
                     </div>
                 </li>
-                <li class="service-item" >
-                    <div class="service-content-box">
-              <!-- <a href="#"> -->
-                <h4 class="h4 service-item-title">Coupling CFD and Heatshield Response Simulations</h4>
-                <p class="service-item-text">• Developed a tool in python for coupling heatshield response simulations with CFD and radiative heating computations</p>
-                <p class="service-item-text">• The coupling involves using blowing gases computed in the heatshield response simulations in a blowing boundary condition in CFD</p>
-                <p class="service-item-text">• The coupling tool was first tested on a 2D sphere case before being used in 3D with the MSL and Mars2020 heatshields</p>
-              <!-- </a> -->
-            </li>
             <li class="service-item" >
                 <div class="service-content-box">
               <!-- <a href="#"> -->
@@ -757,40 +804,10 @@ software (perl), and a code for coupling CFD with heatshield response simulation
             <li class="service-item" >
                 <div class="service-content-box">
               <!-- <a href="#"> -->
-                <h4 class="h4 service-item-title">Development of Thermal Conductivity Solvers for Porous Media</h4>
-                <p class="service-item-text">• Developed two conductivity solvers in C++ for PuMA software</p>
-                <p class="service-item-text">• Conductivity computed on voxel grid based on 3D micro-CT images of porous material</p>
-                <p class="service-item-text">• The first solver uses an implicit finite volume method while the second uses an explicit jump method utilizing discrete fourier transforms for increased performance</p>
-                <p class="service-item-text">• Solvers were parallelized using OpenMP</p>
-              <!-- </a>
-            </div> -->
-            </li>
-            <li class="service-item" >
-                <div class="service-content-box">
-              <!-- <a href="#"> -->
-                <h4 class="h4 service-item-title">Porting and Optimization of PuMA for GPU</h4>
-                <p class="service-item-text">• Added support for GPUs to thermal conductivity module using OpenACC</p>
-                <p class="service-item-text">• Achieved a 25x speedup compared to a single processor</p>
-              <!-- </a> -->
-            </div>
-            </li>
-            <li class="service-item" >
-                <div class="service-content-box">
-              <!-- <a href="#"> -->
                 <h4 class="h4 service-item-title">Development of Carbon Fiber Dynamics Simulator</h4>
                 <p class="service-item-text">• Created a module in C++ simulating the manufacturing process to obtain a realistic woven material</p>
                 <p class="service-item-text">• Each fiber is treated as a set of pinned elastic rods with tensile force applied until steady state is reached</p>
                 <p class="service-item-text">• The initial geometry is obtained from the open source library, TexGen</p>
-              <!-- </a> -->
-            </div>
-            </li>
-            <li class="service-item" >
-                    <div class="service-content-box">
-              <!-- <a href="#"> -->
-                <h4 class="h4 service-item-title">Development of Plugin for Dragonfly Software</h4>
-                <p class="service-item-text">• Created a plugin for Dragonfly, an advanced image visualization and processing software, using their built-in python framework.</p>
-                <p class="service-item-text">• Created a wrapper for PuMA’s C++ material property solvers allowing them to be imported and called in python</p>
-                <p class="service-item-text">• Created a GUI for the plugin using PyQ</p>
               <!-- </a> -->
             </div>
             </li>
