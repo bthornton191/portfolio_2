@@ -23,6 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
 <body>
@@ -45,19 +46,13 @@
           <img src="./assets/images/my-avatar.png" alt="John Thornton" width="80">
         </figure>
 
-        <!-- <div class="info-content">
-          <h1 class="name" title="John Thornton">John Thornton</h1>
-          <p class="title">Flutter | Android | iOS</p>
-        </div> -->
-
         <div class="info-content">
           <h1 class="name" title="John Thornton">John Thornton</h1>
-          <!-- <p class="title" title="Flutter | Android | iOS">Flutter | Android | iOS</p> -->
           <p class="title">Mobile Application Developer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+          <span>Show Contact</span>
 
           <ion-icon name="chevron-down"></ion-icon>
         </button>
@@ -131,38 +126,25 @@
         <div class="separator"></div>
 
         <ul class="social-list">
-
           <li class="social-item">
             <a href="https://github.com/jthornton232" target="_blank" class="social-link">
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
-
           <li class="social-item">
             <a href="https://www.linkedin.com/in/thornton254/" target="_blank" class="social-link">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://scholar.google.com/citations?hl=en&user=B_IPU-i253EC&view_op=list_works&citft=1&email_for_op=Bthorn191%40gmail.com&gmla=AH70aAVs9oNOW5-LMjMR2ul9cF3flKs7Hd25UjB-jyNcCzzbEc66IHNPIGdB8YYDdhY89PD-b6jX7vT6J0k7l3qcApen02eWJN48GlaUczMfVdk27qEZLlOxzZZJoxxGZSyNCPZr4V8gaLeFbIrEiG0bzQ2KDqDk-ZN_qdMBMTtUrnEciAiqpp0A-FUbUb-cUmoiYqJOPW6NsLPwggiaZzw22PsskYUT2ERpvSvzVcUiPg" target="_blank" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
+          </li><li class="social-item">
+            <a href="https://scholar.google.com/citations?user=B_IPU-i253EC&hl=en" target="_blank" class="social-link">
+              <span class="material-symbols-outlined"> school </span>
             </a>
           </li>
-          <li class="social-item">
-            <a href="https://t.me/i_m_Thornton" target="_blank" class="social-link">
-              <ion-icon name="chatbubbles-outline"></ion-icon>
-            </a>
-          </li>
-        </ul>
+          </ul>
 
       </div>
 
     </aside>
-
-
-
-
 
     <!--
       - #main-content
@@ -691,12 +673,7 @@
         <section class="projects">
           <ul class="project-list">
             <li class="project-item  active" >
-              <a href="#">
-<!-- 
-                <figure class="project-img">
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure> -->
-
+              <!-- <a href="#"> -->
                 <h3 class="project-title">Atmospheric Entry Analysis for Uranus Orbiter and Probe</h3>
                 <ul class="project-description">• Worked with a small team to create a proposal for exploration of Uranus </ul> 
                 <ul class="project-description">• Performed heatshield response simulations and proposed a heatshield design </ul>
@@ -704,15 +681,81 @@
               </a>
             </li>
             <li class="project-item  active" >
-              <a href="#">
-<!-- 
-                <figure class="project-img">
-                  <img src="./assets/images/project-2.png" alt="finance" loading="lazy" >
-                </figure> -->
+              <!-- <a href="#"> -->
                 <h3 class="project-title">Coupling CFD and Heatshield Response Simulations</h3>
                 <ul class="project-description">• Developed a tool in python for coupling heatshield response simulations with CFD and radiative heating computations</ul>
                 <ul class="project-description">• The coupling involves using blowing gases computed in the heatshield response simulations in a blowing boundary condition in CFD</ul>
                 <ul class="project-description">• The coupling tool was first tested on a 2D sphere case before being used in 3D with the MSL and Mars2020 heatshields</ul>
+              </a>
+            </li>
+            <li class="project-item  active" >
+              <!-- <a href="#"> -->
+                <h3 class="project-title">Uncertainty Quantification for Atmospheric Entry</h3>
+                <ul class="project-description">• Developed a code in perl for performing monte carlo based uncertainty quantification with heatshield response simulations</ul>
+                <ul class="project-description">• The code provided confidence intervals for success based on material temperature limits</ul>
+                <ul class="project-description">• Used this code to perform risk assessments for commercial flight tests for the Boeing Starliner CST-100</ul>
+              </a>
+            </li>
+            <li class="project-item  active" >
+              <!-- <a href="#"> -->
+                <h3 class="project-title">Mars Science Lab Heatshield Response Simulations</h3>
+                <ul class="project-description">• Performed material response simulations with the geometry and material properties of the MSL heatshield</ul>
+                <ul class="project-description">• Computed Mars aerothermal environment with CFD</ul>
+                <ul class="project-description">• Results compared to measured temperature data from Mars entry</ul>
+              </a>
+            </li>
+            <li class="project-item  active" >
+              <!-- <a href="#"> -->
+                <h3 class="project-title">Sensitivity Analysis of Parameters in Mars Entry</h3>
+                <ul class="project-description">• Performed sensitivity analysis using Dakota to assess impact of material properties on temperature during entry</ul>
+              </a>
+            </li>
+            <li class="project-item  active" >
+              <!-- <a href="#"> -->
+                <h3 class="project-title">Inverse Analysis of Mars Atmosphere</h3>
+                <ul class="project-description">• Performed inverse analysis using Bayesian calibration to compute heating rate estimates during entry</ul>
+                <ul class="project-description">• The calibration minimized error between measured temperatures from NASA missions and computed temperatures from PATO</ul>
+                <ul class="project-description">• Bayesian calibration was done in Dakota</ul>
+              </a>
+            </li>
+            <li class="project-item  active" >
+              <!-- <a href="#"> -->
+                <h3 class="project-title">Development of Thermal Conductivity Solvers for Porous Media</h3>
+                <ul class="project-description">• Developed two conductivity solvers in C++ for PuMA software</ul>
+                <ul class="project-description">• Conductivity computed on voxel grid based on 3D micro-CT images of porous material</ul>
+                <ul class="project-description">• The first solver uses an implicit finite volume method while the second uses an explicit jump method utilizing discrete fourier transforms for increased performance</ul>
+                <ul class="project-description">• Solvers were parallelized using OpenMP</ul>
+              </a>
+            </li>
+            <li class="project-item  active" >
+              <!-- <a href="#"> -->
+                <h3 class="project-title">Porting and Optimization of PuMA for GPU</h3>
+                <ul class="project-description">• Added support for GPUs to thermal conductivity module using OpenACC</ul>
+                <ul class="project-description">• Achieved a 25x speedup compared to a single processor</ul>
+              </a>
+            </li>
+            <li class="project-item  active" >
+              <!-- <a href="#"> -->
+                <h3 class="project-title">Development of Carbon Fiber Dynamics Simulator</h3>
+                <ul class="project-description">• Created a module in C++ simulating the manufacturing process to obtain a realistic woven material</ul>
+                <ul class="project-description">• Each fiber is treated as a set of pinned elastic rods with tensile force applied until steady state is reached</ul>
+                <ul class="project-description">• The initial geometry is obtained from the open source library, TexGen</ul>
+              </a>
+            </li>
+            <li class="project-item  active" >
+              <!-- <a href="#"> -->
+                <h3 class="project-title">Development of Plugin for Dragonfly Software</h3>
+                <ul class="project-description">• Created a plugin for Dragonfly, an advanced image visualization and processing software, using their built-in python framework.</ul>
+                <ul class="project-description">• Created a wrapper for PuMA’s C++ material property solvers allowing them to be imported and called in python</ul>
+                <ul class="project-description">• Created a GUI for the plugin using PyQ</ul>
+              </a>
+            </li>
+            <li class="project-item  active" >
+              <!-- <a href="#"> -->
+                <h3 class="project-title">Analysis of Permeability in Oxidizing Heatshields</h3>
+                <ul class="project-description">• Performed oxidation simulations for carbon composite materials</ul>
+                <ul class="project-description">• Calculated permeability at multiple stages of oxidation using GeoDict stokes flow solver</ul>
+                <ul class="project-description">• Created a model relating permeability to porosity in oxidizing fibrous carbon based on results and similar models found in literature</ul>
               </a>
             </li>
           </ul>
@@ -730,10 +773,15 @@
           <ul class="project-list">
             <li class="service-item">
                 <div class="service-icon-box">
-                    <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                    <a href="https://doi.org/10.1016/j.ast.2022.107522" target="_blank">
+                      <span class="material-symbols-outlined" style="color: white;">
+                        link
+                      </span>
+                    </a>
                 </div>
                 <div class="service-content-box">
                     <h4 class="h4 service-item-title">Effects of problem complexity reduction on parameter sensitivity and classification in charring ablator scenarios</h4>
+                    <h5 class="h5 service-item-title"><em>Aerospace Science and Technology</em></h5>
                     <p class="service-item-text">
                         We investigate here effects of adaptations like dimension reduction, omission of parameter correlation, and grid
                         refinement on parameter influence over material temperature response and total recession. The task is accomplished by
@@ -752,8 +800,16 @@
           </ul>
           <ul class="project-list">
             <li class="service-item">
+                <div class="service-icon-box">
+                    <a href="https://doi.org/10.1016/j.softx.2021.100775" target="_blank">
+                      <span class="material-symbols-outlined" style="color: white;">
+                        link
+                      </span>
+                    </a>
+                </div>
                 <div class="service-content-box">
-                    <h4 class="h4 service-item-title">Update 3.0 to “puma: The porous microstructure analysis software</h4>
+                    <h4 class="h4 service-item-title">Update 3.0 to “PuMA: The porous microstructure analysis software</h4>
+                    <h5 class="h5 service-item-title"><em>SoftwareX</em></h5>
                     <p class="service-item-text">
                         A major update of the Porous Microstructure Analysis (PuMA) software is presented. PuMA is a framework for computing
                         effective material properties and response based on material microstructures. Version 3.0 of the software extends the
@@ -764,6 +820,343 @@
                 </div>
             </li>
           </ul>
+          <ul class="project-list">
+            <li class="service-item">
+                <div class="service-icon-box">
+                    <a href="https://doi.org/10.1115/SMASIS2014-7411" target="_blank">
+                      <span class="material-symbols-outlined" style="color: white;">
+                        link
+                      </span>
+                    </a>
+                </div>
+                <div class="service-content-box">
+                    <h4 class="h4 service-item-title">An Investigation of Morphology Dependent Charge Storage in Polypyrrole Membranes</h4>
+                    <h5 class="h5 service-item-title"><em>Smart Materials, Adaptive Structures and Intelligent Systems</em></h5>
+                    <p class="service-item-text">
+                        PPy-based membranes exchange ions with electrolyte through reversible redox processes and hence are best suited as
+                        electrodes for batteries and super capacitors. The energy density of batteries and super capacitors are dependent on the
+                        specific capacitance of the conducting polymer and can be represented through a mechanistic model for ion transport.
+                        Through this model, the specific capacitance of polypyrrole-based membranes is shown to be dependent on the number of
+                        accessible redox sites at the electrolyte-polymer interface. The accessibility of redox sites at the electrolyte-polymer
+                        interface can be increased by controlling the morphological properties and distribution of dopant in the polymer
+                        backbone. Thus, by nanostructuring and by controlling the distribution of the dopant in the polymer, we have shown that
+                        the capacitance of PPy-based membranes can be increased to 490 F.g−1 for a 50 mV.sec−1 scan rate and 0.6 g.cm−2 specific
+                        mass. Despite this value of specific capacitance being the highest reported for PPy-based membranes to date, it is
+                        estimated that only 69% of active redox sites are used for ion storage and hence can be increased further. Maximizing
+                        specific capacitance requires an understanding of spatial distribution of redox sites in the polymer backbone and its
+                        corresponding chemoelectrical activity. In order to generate a spatial map of ion storage in PPy-based membranes, this
+                        article presents for the first time a shear-force (SF) based topography imaging and scanning electrochemical microscopy
+                        (SECM) imaging of the PPy(DBS) under reduced and oxidized conditions. From a correlated topography and chemoelectrical
+                        activity of PPy-based membrane, the data shows the availability of redox sites in the polymer and it is projected that
+                        this result will enhance the design and nanostructuring of PPy-based membranes and distribution of dopant in the
+                        backbone.
+                    </p>
+                </div>
+            </li>
+          </ul>
+          <ul class="project-list">
+            <li class="service-item">
+                <div class="service-icon-box">
+                    <a href="https://doi.org/10.2514/6.2023-0963.vid" target="_blank">
+                      <span class="material-symbols-outlined" style="color: white;">
+                        link
+                      </span>
+                    </a>
+                </div>
+                <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Coupling heatshield response and aerothermal environment for mars entry via surface gas blowing</h4>
+                    <h5 class="h5 service-item-title"><em>AIAA SCITECH 2023 Forum</em></h5>
+                    <p class="service-item-text">
+                        Flight data obtained using the instrumented heatshields on the Mars Science Laboratory and Mars 2020 has offered unique
+                        validation data for material response and aerothermal environment modeling of Mars atmospheric entry. While the
+                        environment and material response are coupled in reality, they are usually solved separately with a correction to
+                        account for blowing at the surface. The objective of this work is to showcase the coupling of gas blowing between the
+                        material response and the aerothermal environment codes. Simulations are iterated until a convergence in surface
+                        temperature is obtained. Coupling the material response and environment models may lead to improved fidelity in modeling
+                        atmospheric entry and could serve as a validation for decoupled material response and aerothermal environment models.
+                    </p>
+                </div>
+            </li>
+          </ul>
+          <ul class="project-list">
+            <li class="service-item">
+                <div class="service-icon-box">
+                    <a href="https://ntrs.nasa.gov/api/citations/20230013959/downloads/AWS2023_abstract_puma.pdf" target="_blank">
+                      <span class="material-symbols-outlined" style="color: white;">
+                        link
+                      </span>
+                    </a>
+                </div>
+                <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Porous microstructure analysis (puma) software</h4>
+                    <h5 class="h5 service-item-title"><em>AIAA SCITECH 2023 Forum</em></h5>
+                    <p class="service-item-text">
+                        The open-source Porous Microstructure Analysis (PuMA) software was implemented to offer an efficient framework for
+                        determining material characteristics from 3D microstructures. Its development was inspired by progress in X-ray
+                        microtomography, an imaging technology that captures the internal structure of materials in 3D, and even in a 4D
+                        temporal context. Over recent years, this method has transformed the domain of materials science due to its capability
+                        to non-destructively examine material microstructures while presenting digital data about their geometrical details. It
+                        has provided insights into materials relevant to several NASA missions, including heatshields, parachute fabrics,
+                        meteorites, and other advanced composites.
+                        
+                        PuMA, in its current version 3, delivers an array of features, spanning from basic geometric insights of a
+                        microstructure to intricate anisotropic thermo-elastic and chemical behavior. Specifically, the software evaluates
+                        morphological attributes (specific surface area, volume fractions, mean intercept lengths, orientation) and physical
+                        characteristics (conductivity, elasticity, permeability, and tortuosity). Additionally, it can model material
+                        degradation processes, such as oxidation and surface chemistry interactions. The software can generate synthetic
+                        microstructures, from straightforward geometrical designs to intricate woven and non-woven geometries. Coupling material
+                        generation and characterization enable parametric studies and sensitivity analysis to optimize the microstructural
+                        performance and inform design decisions and reliability assessment based on uncertainty quantification.
+                        
+                        A recent addition to PuMA includes the TomoSAM plugin, devised to incorporate the cutting-edge Segment Anything Model
+                        (SAM). SAM is a promptable deep learning model that can identify objects and create image masks in a zero-shot manner,
+                        based only on a few user clicks. The synergy between these tools aids in the segmentation of complex 3D datasets from
+                        tomography or other imaging techniques, which would otherwise require a laborious manual segmentation process.
+                    </p>
+                </div>
+            </li>
+          </ul>
+          <ul class="project-list">
+            <li class="service-item">
+                <div class="service-icon-box">
+                    <a href="https://doi.org/10.2514/6.2023-2720" target="_blank">
+                      <span class="material-symbols-outlined" style="color: white;">
+                        link
+                      </span>
+                    </a>
+                </div>
+                <div class="service-content-box">
+                    <h4 class="h4 service-item-title">3D ablation modeling of silicone-coated heatshield compared to medli2 in-flight data</h4>
+                    <h5 class="h5 service-item-title"><em>AIAA SCITECH 2023 Forum</em></h5>
+                    <p class="service-item-text">
+                        Mars 2020 was protected during atmospheric entry by a heatshield made of Phenolic Impregnated Carbon Ablator (PICA),
+                        NASA’s flagship porous ablative material. The heatshield was equipped with the Mars Entry, Descent, and Landing
+                        Instrumentation 2 (MEDLI2) suite that provided detailed in-flight data for the validation of aerothermodynamics models.
+                        NuSil, a silicone overcoat that shows a protective effect against atomic oxygen, was applied as contamination control
+                        during Mars 2020 assembly, test, and launch operations. A detailed equilibrium ablation and thermal response model of
+                        NuSil was developed in the Porous material Analysis Toolbox based on OpenFOAM (PATO) framework. The mass and heat
+                        transfer model of NuSil, based on experimental results collected under arc jet environments, includes specific boundary
+                        conditions for the coating removal and surface equilibrium processes using representative elements of the
+                        NuSil/environment system. Charred NuSil models with different compositions and properties at the surface were
+                        investigated. Three-dimensional simulations were performed for the material response of the Mars 2020 heatshield during
+                        atmospheric entry. Surface thermal differences were analyzed by comparing PICA-NuSil ablation simulations to in-depth
+                        thermocouple data from the MEDLI2 suite.
+                    </p>
+                </div>
+            </li>
+          </ul>
+          <ul class="project-list">
+            <li class="service-item">
+                <div class="service-icon-box">
+                    <a href="https://ntrs.nasa.gov/api/citations/20220008298/downloads/IPPW_UranusAbstract_NF1676.pdf" target="_blank">
+                      <span class="material-symbols-outlined" style="color: white;">
+                        link
+                      </span>
+                    </a>
+                </div>
+                <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Uranus atmospheric entry probe thermal protection design study</h4>
+                    <h5 class="h5 service-item-title"><em>IPPW 2022</em></h5>
+                    <p class="service-item-text">
+                        The Planetary Science Decadal Survey [1] has identified Uranus as the highest priority destination for a flagship
+                        mission in the decade 2022-2032. Significant effort was expended across multiple teams in developing the concept study.
+                        The proposed poster will focus on the entry and descent aspects of an atmospheric probe, considered as part of the
+                        mission concept, and associated trades for viable trajectory options.
+                    </p>
+                </div>
+            </li>
+          </ul>
+          <ul class="project-list">
+            <li class="service-item">
+                <div class="service-icon-box">
+                    <a href="https://ntrs.nasa.gov/api/citations/20210014103/downloads/IPPW_2021_Thornton_v2.pdf" target="_blank">
+                      <span class="material-symbols-outlined" style="color: white;">
+                        link
+                      </span>
+                    </a>
+                </div>
+                <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Analysis of the msl/medli entry data with coupled cfd and material response</h4>
+                    <h5 class="h5 service-item-title"><em>18th International Planetary Probe Workshop</em></h5>
+                    <p class="service-item-text">
+                        The Mars Science Laboratory (MSL) was protected during its atmospheric entry by an instrumented heat-shield using NASA's
+                        Phenolic Impregnated Carbon Ablator (PICA) material. PICA is a lightweight carbon fiber/polymeric resin material that
+                        offers out-standing performances for protecting probes during planetary entry. The Mars Entry Descent and Landing
+                        Instrument (MEDLI) suite on MSL offers unique in-flight validation data for models of material response and atmospheric
+                        entry. MEDLI recorded, among other things, time-resolved in-depth temperature data of PICA using thermocouple sensors
+                        assembled in the MEDLI Integrated Sensor Plugs (MISP).
+                        
+                        The objective of this work is to showcase and analyze the coupling between the material response and the aerothermal
+                        environment. As shown in Figure 1, the workflow is divided into the following steps. First, the aerothermal properties
+                        are computed in the Data Parallel Line Relaxation (DPLR) code [3] and used with the Nonequilibrium air radiation
+                        (NEQAIR) program [8] to compute radiative heating. Second, the thermal response inside the material is computed in the
+                        Porous material Analysis Toolbox based on Open-FOAM (PATO) using a fixed blowing correction parameter. Third, the
+                        pyrolysis gases computed in PATO are used as inputs to a blowing boundary condition within DPLR. Fourth, the new
+                        environment properties from DPLR are used in NEQAIR to provide an updated solution, then both the updated aerothermal
+                        environment and radiative heating are used in PATO without blowing correction. The third and fourth steps are then
+                        repeated until convergence in surface temperature is obtained. Convergence in the radiative heating is generally
+                        achieved before surface temperature, at which point the radiative heating is no longer updated. Char mass loss rates are
+                        forced to zero to produce a non-receding surface condition.
+                        
+                        For early time points in the trajectory, where flow around the MSL aeroshell is rarefied, the Direct Simulation Monte
+                        Carlo (DSMC) code, SPARTA, is used to compute the aerothermal environment. Iteration between PATO and SPARTA is not
+                        performed due to the computational cost of DSMC simulations.
+                        
+                        Preliminary results of the coupling between PATO and DPLR for the MSL heatshield atmospheric entry model are presented
+                        in Figures 2-4 at 65 seconds after entry interface. Figure 2 shows the surface temperature results from an uncoupled
+                        simulation in PATO with the blowing correction parameter applied (left) along with the coupled surface temperature after
+                        iteration (right). Figure 3 shows the surface temperature along the centerline from windward to leeward for easier
+                        comparison. Figure 4 shows the coupled and uncoupled pyrolysis gas blowing rate.
+                        
+                        Mars 2020 used a similar heatshield consisting of PICA for thermal protection during entry, descent, and landing. In
+                        preparation for Mars 2020 post-flight analysis, the predictive material response capability is benchmarked against
+                        flight data from MEDLI. This work represents an important milestone toward the development of validated predictive
+                        capabilities for designing thermal protection systems for planetary probes.
+                    </p>
+                </div>
+            </li>
+          </ul>
+          <ul class="project-list">
+            <li class="service-item">
+                <div class="service-icon-box">
+                    <a href="https://ntrs.nasa.gov/api/citations/20200000318/downloads/20200000318.pdf" target="_blank">
+                      <span class="material-symbols-outlined" style="color: white;">
+                        link
+                      </span>
+                    </a>
+                </div>
+                <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Determination of aerothermal environment and ablator material response using inverse methods</h4>
+                    <h5 class="h5 service-item-title"><em>Ablation Workshop</em></h5>
+                    <p class="service-item-text">
+                        The Mars Science Laboratory (MSL) was protected during entry into the Martian atmosphere by a thermal protection system
+                        that used NASA’s Phenolic Impregnated Carbon Ablator (PICA). The heat shield of the probe was instrumented with the Mars
+                        Entry Descent and Landing Instrument (MEDLI) suite of sensors. MEDLI Integrated Sensor Plugs (MISP) included
+                        thermocouples that measured in-depth temperatures at various locations on the heatshield. The flight data has been used
+                        as a benchmark for validating ablation codes within NASA. This work seeks to refine the estimate of the material
+                        properties for the MSL heat shield and the aerothermal environment during Mars entry using estimation methods in DAKOTA
+                        on the temperature data obtained from MEDLI.
+                    </p>
+                </div>
+            </li>
+          </ul>
+          <ul class="project-list">
+            <li class="service-item">
+                <div class="service-icon-box">
+                    <a href="https://ntrs.nasa.gov/api/citations/20200000319/downloads/20200000319.pdf" target="_blank">
+                      <span class="material-symbols-outlined" style="color: white;">
+                        link
+                      </span>
+                    </a>
+                </div>
+                <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Micro-scale artificial weave generation capabilities for thermal protection system material modeling</h4>
+                    <h5 class="h5 service-item-title"><em>Ablation Workshop</em></h5>
+                    <p class="service-item-text">
+                        The Mars Science Laboratory (MSL) was protected during entry into the Martian atmosphere by a thermal protection system
+                        that used NASA’s Phenolic Impregnated Carbon Ablator (PICA). The heat shield of the probe was instrumented with the Mars
+                        Entry Descent and Landing Instrument (MEDLI) suite of sensors. MEDLI Integrated Sensor Plugs (MISP) included
+                        thermocouples that measured in-depth temperatures at various locations on the heatshield. The flight data has been used
+                        as a benchmark for validating ablation codes within NASA. This work seeks to refine the estimate of the material
+                        properties for the MSL heat shield and the aerothermal environment during Mars entry using estimation methods in DAKOTA
+                        on the temperature data obtained from MEDLI.
+                    </p>
+                </div>
+            </li>
+          </ul>
+          <ul class="project-list">
+            <li class="service-item">
+                <div class="service-icon-box">
+                    <a href="https://ntrs.nasa.gov/api/citations/20200000628/downloads/20200000628.pdf" target="_blank">
+                      <span class="material-symbols-outlined" style="color: white;">
+                        link
+                      </span>
+                    </a>
+                </div>
+                <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Microscale analysis of spacecraft heat shields</h4>
+                    <h5 class="h5 service-item-title"><em>International Conference for High Performance Computing, Networking, Storage, and Analysis</em></h5>
+                    <p class="service-item-text">
+                        Imagine entering Earth’s atmosphere after returning from the outer solar system. A heat shield less than 2 inches thick
+                        protects you from temperatures up to 2,900° Celsius (5,252° Fahrenheit). Such conditions were experienced by NASA’s
+                        Stardust capsule during reentry in 2006. The only materials capable of providing the necessary protection are composites
+                        with complex microstructures. Evaluating these materials is difficult, requiring precise knowledge of their properties.
+                        To this end, NASA scientists are developing research codes to compute material properties and simulate ablation at the
+                        microscale using agency supercomputers. Utilizing these tools, along with experiments, researchers are working to push
+                        the limits of spaceflight, allowing for greater flexibility in future space missions.
+                    </p>
+                </div>
+            </li>
+          </ul>
+          <ul class="project-list">
+            <li class="service-item">
+                <div class="service-icon-box">
+                    <a href="https://ntrs.nasa.gov/api/citations/20180007177/downloads/20180007177.pdf" target="_blank">
+                      <span class="material-symbols-outlined" style="color: white;">
+                        link
+                      </span>
+                    </a>
+                </div>
+                <div class="service-content-box">
+                    <h4 class="h4 service-item-title">The porous microstructure analysis (puma) software for high-temperature microscale modeling</h4>
+                    <h5 class="h5 service-item-title"><em>Annual InterPore Meeting</em></h5>
+                    <p class="service-item-text">
+                        The Porous Microstructure Analysis (PuMA) software is a suite of tools for the analysis of porous materials and
+                        generation of material microstructures. From microstructural data, often obtained through X-ray microtomography, PuMA
+                        can determine a number of effective material properties and perform material response simulations. Version 2.2 includes
+                        capabilities for computing volume fractions, porosity, specific surface area, effective thermal and electrical
+                        conductivities, and continuum and rarefied diffusive tortuosity. PuMA can also simulate competitive diffusion/reaction
+                        processes at the micro-scale, such as surface oxidation. In this poster, recent advancements to the PuMA software are
+                        detailed, including the full refactoring of PuMA into v3.0, a new module to compute heat conduction in anisotropic
+                        materials, a particle method for simulating molecular beam experiments, a new finite-volume Laplace solver, complex
+                        fibrous material generation, woven material generation, and a coupling of PuMA with the DAKOTA software for advanced
+                        statistics.
+                    </p>
+                </div>
+            </li>
+          </ul>
+          <!-- <ul class="project-list"> -->
+
+            <!-- REMOVED: It's only a power point and it has the same abstract as the on above -->
+            <!-- <li class="service-item">
+                <div class="service-icon-box">
+                    <a href="https://scholar.google.com/scholar?oi=bibs&cluster=9673427740617018415&btnI=1&hl=en" target="_blank">
+                      <span class="material-symbols-outlined" style="color: white;">
+                        link
+                      </span>
+                    </a>
+                </div>
+                <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Recent developments to the porous microstructure analysis (puma) software</h4>
+                    <h5 class="h5 service-item-title"><em>Ablation Workshop</em></h5>
+                    <p class="service-item-text">
+                        
+                    </p>
+                </div>
+            </li> -->
+          <!-- </ul> --><ul class="project-list">
+            <li class="service-item">
+                <div class="service-icon-box">
+                    <a href="https://ntrs.nasa.gov/api/citations/20180007177/downloads/20180007177.pdf" target="_blank">
+                        <span class="material-symbols-outlined" style="color: white;">
+                            link
+                        </span>
+                    </a>
+                </div>
+                <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Modeling the Relationship Between Porosity and Permeability During Oxidation of Ablative Materials</h4>
+                    <h5 class="h5 service-item-title"><em>Ablation Workshop</em></h5>
+                    <p class="service-item-text">
+                        The ablative materials used in thermal protection systems (TPS) undergo oxidation during atmospheric entry which leads
+                        to an in-depth change in both permeability and porosity. These properties have a significant affect on heat transfer in
+                        a TPS during entry. X-ray micro-tomography has provided 3D images capturing the micro-structure of TPS materials. In
+                        this study, we use micro-tomography based simulations to create high-fidelity models relating permeability to porosity
+                        during oxidation of FiberForm, the carbon fiber preform of the Phenolic Impregnated Carbon Ablator (PICA) often used as
+                        a TPS material. The goal of this study is to inform full-scale models and reduce uncertainty in TPS modeling.
+                    </p>
+                </div>
+            </li>
+        </ul>
         </section>
       </article>
 
