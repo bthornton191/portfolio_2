@@ -1,4 +1,4 @@
 # Johns resume
 
 
-[Hexagon: CFD Software Engineer](https://myhr-hexagonmi.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN5448)
+Visit the live version of this resume at [https://jthornton232.github.io/portfolio_2/](https://jthornton232.github.io/portfolio_2/)
