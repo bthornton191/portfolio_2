@@ -7,8 +7,27 @@
  * copyright 2022 @codewithsadee
  */
 
+ .modal-text {
+  /* max-height: 80vh; */
+  display: flex;
+  flex: 1;
+  overflow-y: auto;
+}
 
+.testimonials-modal {
+  /* height: 100vh; */
+  max-height: 95vh;
+  display: flex;
+}
 
+.modal-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-img-wrapper {
+  margin-right: 10px;
+}
 
 
 /*-----------------------------------*\
@@ -1476,6 +1495,8 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: 35px;
   }
 
+
+
   /* clients */
 
   .clients-list {
@@ -1593,7 +1614,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .testimonials-modal {
     gap: 35px;
-    max-width: 680px;
+    max-width: 1024px;
   }
 
   .modal-avatar-box img { width: 80px; }
